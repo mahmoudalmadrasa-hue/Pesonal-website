@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Noto+Music&display=swap"
+      rel="stylesheet"
+    />
+    <title>Mahmoud Tafour</title>
+    <link href="STYLE.CSS" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="CONTAINER">
+      <video class="video-loop" autoplay loop muted>
+        <source src="./images/video-loop.mp4" type="video/mp4" />
+      </video>
+      <header class="header">
+        <label class="burger-menu" for="menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div
+        ></label>
+        <input id="menu" class="buger-menu__checkbox" type="checkbox" />
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__link">BIO</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__link">SKILLS</a>
+            </li>
+            <li>
+              <a href="#media" class="navigation__link">MEDIA</a>
+            </li>
+            <li>
+              <a href="#project" class="navigation__link">PROJECT</a>
+            </li>
+            <li>
+              <a href="#clients" class="navigation__link">MY CLIENTS</a>
+            </li>
+            <li>
+              <a
+                href="#contact us"
+                class="navigation__link navigation__contact-us"
+                >CONTACT</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            name="toggle-checbox"
+            id="toggle"
+            class="toggle-checkbox"
+          />
+          <label
+            for="toggle"
+            class="toggle__label toggle__label--dark toggle__label--white"
+          ></label>
+        </div>
+      </header>
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi There,I'M <br />
+            A Pasionate SOFTWARE STUDENT
+          </h1>
+          <p class="bio__objective">
+            My name is <span class="bio__name">Mahmoud Tafour</span> , A
+            SOFTWARE STUDENT LEARNING AT
+            <a href="https://almdrasa.com/" class="bio__almdrasa"
+              >ALMADRASA.COM</a
+            >
+            AND LIKES SWIIMING, IF YOU WANT TO COMMENT ME YOU CAN COMMENT ON<a
+              href="https://www.facebook.com/lion.295007"
+              class="bio__facebook"
+              >Facebook</a
+            >
+            ,
+            <a
+              href="https://www.youtube.com/@Mahmoud-i4t1k"
+              class="bio__youtube"
+              >Youtube</a
+            >
+            ,
+            <a
+              href="https://www.linkedin.com/in/mahmoud-tafour-222a0b382/"
+              class="bio__linkenin"
+              >Linkedin</a
+            >
+          </p>
+          <a href="#contact us" class="bio__links say-hi-link">Say Hi</a>
+          <a href="./Document.docx" class="bio__links find-out-link"
+            >Download CV <span class="bio__arrow"> &darr;</span></a
+          >
+        </div>
+        <div class="bio__pic-content">
+          <img
+            class="bio__pic"
+            src="images/cb018dae-0dba-41d7-9734-968559c506f3.png"
+            alt="Picture of Mahmoud Tafour"
+          />
+        </div>
+      </section>
+      <section id="skills" class="skills section section--with-bg">
+        <h2 class="h2-heading">SKILLS</h2>
+        <ul class="skills__list">
+          <li class="skills__item">
+            <h2 class="skills__title">HTML</h2>
+            <span class="skills__years">2 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">CSS</h2>
+            <span class="skills__years">5 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Javascript</h2>
+            <span class="skills__years">3 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">React</h2>
+            <span class="skills__years">5 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Redux</h2>
+            <span class="skills__years">2 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">React Testing Library</h2>
+            <span class="skills__years">6 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Python</h2>
+            <span class="skills__years">1 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Java</h2>
+            <span class="skills__years">3 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Scratch</h2>
+            <span class="skills__years">1 years</span>
+          </li>
+        </ul>
+      </section>
+      <section id="media" class="media section">
+        <video
+          class="media__video"
+          poster="./images/thumbnail.jpg"
+          src="./images/WhatsApp Video 2025-09-09 at 3.40.34 PM.mp4"
+          controls
+        >
+          <source
+            src="./images/WhatsApp Video 2025-09-09 at 3.40.34 PM.mp4"
+            type="images/WhatsApp Video 2025-09-09 at 3.40.34 PM/mp4"
+          />
+        </video>
+      </section>
+      <section id="project" class="project section">
+        <h2 class="h2-heading">
+          MY FEATURED <br />
+          PROJECT
+        </h2>
+        <div class="projects__main">
+          <img
+            src="images/project-1.jpg"
+            alt="project"
+            width="600"
+            height="500"
+            class="projects__img"
+          />
+          <div class="project-data">
+            <h3 class="h3-heading">
+              Quran Tab<br />
+              Extension
+            </h3>
+            <p class="projects__description">
+              Quran Tab is an Islamic new tab page that will keep you inspired
+              by a verse from the Quran every time you open a new tab that helps
+              you achieve your "Khatma" and keeps you connected with the words
+              of Allah
+            </p>
+            <a
+              href="https://bit.ly/qt-chrome"
+              class="projects__links"
+              target="_blank"
+              >Chrome Link</a
+            >
+            <span>-</span>
+            <a
+              href="https://bit.ly/qt-edge"
+              class="projects__links"
+              target="_blank"
+              >Edge Link</a
+            >
+          </div>
+          <img
+            src="images/project-2.jpg"
+            alt="project"
+            width="500"
+            height="500"
+            class="projects__img"
+          />
+          <div class="project-data">
+            <h3 class="h3-heading">My Old <br />Project</h3>
+            <p class="projects__description">
+              Almdrasa is a new learning platform that tries to fill the gab in
+              the Arabic content. THE idea is to find the best programming
+              courses in the field and try to reproduce it in Arabic with high
+              standards (Audio, Video, Animations,etc) let's learn more about
+              Almdrasa platform
+            </p>
+            <a
+              href="file:///C:/Users/mAhmo/OneDrive/Desktop/00_Mahmoud/02-Programming/01-Almadrsa/04-CSS-LAYOUT/css%20layout/EN.INDEX.html"
+              class="projects__links"
+              target="_blank"
+              >Chrome Link</a
+            >
+            <span>-</span>
+            <a
+              href="file:///C:/Users/mAhmo/OneDrive/Desktop/00_Mahmoud/02-Programming/01-Almadrsa/04-CSS-LAYOUT/css%20layout/EN.INDEX.html"
+              class="projects__links"
+              target="_blank"
+              >Edge Link</a
+            >
+            <span>-</span
+            ><a
+              href="file:///C:/Users/mAhmo/OneDrive/Desktop/00_Mahmoud/02-Programming/01-Almadrsa/04-CSS-LAYOUT/css%20layout/EN.INDEX.html"
+              class="projects__links"
+              target="_blank"
+              >Firefox link</a
+            >
+          </div>
+        </div>
+      </section>
+      <section id="clients" class="section Clients section--with-bg">
+        <h2 class="h2-heading">
+          What My<br />
+          Clients Says.
+        </h2>
+        <div class="clients__data">
+          <div class="clients__wrapper">
+            <p class="clients__opinion">
+              Mohamed has the advantageous ability to understand a problem and
+              implement code to a high standard within the deadline. Each
+              project we have worked on, I know I can completely trust Mohamed
+              to own his tasks and complete what is needed when asked of him.
+            </p>
+            <p class="clients__opinion">
+              Mahmoud will patiently listen to you and give you his own Ideas as
+              well, and in the end, he comes up with something completely
+              different from what you’re expecting, but the good news is, you’ll
+              always love it.
+            </p>
+            <p class="clients__opinion">
+              I had a chance to work closely with Mohamed as a direct manager
+              from hist first day at DeliveryHero until my last day there
+              (6+months). Mahmoud biggest strengths that I admire are taking
+              initiatives on personal and team level, and driving them.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact us" class="section contact us">
+        <div>
+          <p class="contact__description">
+            Feel free to reach out to me any time. I prefer to talk
+            <br />
+            over email, especially since we may be a few time <br />zones away.
+          </p>
+
+          <a class="contact__email" href="mailto:exaple@gmail.com"
+            >example@gmail.com</a
+          >
+          <div class="contact__socials">
+            <a href="https://www.github.com" class="contact__social">
+              <img src="./images/brand/github.svg" alt="icon of github"
+            /></a>
+
+            <a href="https://www.instagram.com" class="contact__social"
+              ><img src="./images/brand/instagram.svg" alt="icon of instagram"
+            /></a>
+
+            <a href="https://www.LinkedIn.com" class="contact__social"
+              ><img src="./images/brand/LinkedIn.svg" alt="icon of linkedin"
+            /></a>
+
+            <a href="https://www.twitter.com" class="contact__social"
+              ><img src="./images/brand/twitter.svg" alt="icon of twitter"
+            /></a>
+
+            <a href="https://www.youtube.com" class="contact__social"
+              ><img src="./images/brand/youtube.svg" alt="icon of facebook"
+            /></a>
+
+            <a href="https://www.facebook.com/" class="contact__social"
+              ><img src="./images/brand/facebook.svg" alt="icon of facebook"
+            /></a>
+          </div>
+        </div>
+
+        <div class="contact__form-content">
+          <h2 class="h2-heading">Let’s Work <br />Together!</h2>
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input
+                type="text"
+                class="contact__input"
+                placeholder="Full Name"
+                required
+                name="full-name"
+              />
+              <input
+                type="password"
+                class="contact__input"
+                placeholder="Password"
+                required
+                name="Password"
+              />
+            </div>
+            <div class="contact__inputs">
+              <input
+                type="tel"
+                class="contact__input"
+                placeholder="Phone No."
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                required
+                name="telephone"
+              />
+              <input
+                class="contact__input"
+                type="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <textarea
+              name="description"
+              id="description"
+              rows="1"
+              class="contact__input contact__textarea"
+              placeholder="Your Message"
+              name="Message"
+              required
+            ></textarea>
+            <input type="submit" value="Send Message" class="contact__button" />
+          </form>
+        </div>
+      </section>
+      <section>
+        <footer class="footer">© 2025 by Mahmoud Tafour</footer>
+        <footer class="footer">ALMADRASA&#174;</footer>
+      </section>
+    </div>
+  </body>
+</html>
